@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #A2A5B7;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #A2A5B7;
 	}
 
 	i, em {
@@ -149,8 +149,18 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+	h1 {
+		color: #A2A5B7;
+		margin: 0 0 0.75em 0;
+	}
+
+	h2 {
+		color: #E9E9E9;
+		margin: 0 0 0.75em 0;
+	} 
+	
+	h3, h4, h5, h6 {
+		color: #282C3D;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1974,7 +1984,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #7E57C2;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -1995,17 +2005,17 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #30364C;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #414863;
+			
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #565E7F;
+			
 		}
 
 		.wrapper.style4 {
@@ -2036,7 +2046,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #292D3E;
 		text-align: center;
 		position: fixed;
 		left: 0;
